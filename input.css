@@ -1,0 +1,15 @@
+@import './fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+td {
+  width: 50%;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  font-family: 'Outfit';
+}
+
+tr td:nth-child(2) {
+  @apply text-Brown-800 font-bold
+}
